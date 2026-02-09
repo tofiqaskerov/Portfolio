@@ -64,7 +64,7 @@ const ProjectsSection = () => {
       <div className="max-w-6xl mx-auto relative z-10">
         <AnimatedSection>
           <h2 className="text-3xl md:text-5xl font-bold text-center mb-4">
-            Featured <span className="text-primary neon-text">Projects</span>
+            <span className="text-primary neon-text">Projects</span>
           </h2>
           <p className="text-muted-foreground text-center mb-16 max-w-xl mx-auto">
             A showcase of what I've built

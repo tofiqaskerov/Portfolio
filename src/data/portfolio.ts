@@ -22,7 +22,7 @@ export const techStack = [
 
 export const socialLinks = [
   { name: "GitHub", url: "https://github.com/tofiqaskerov", icon: "github" },
-  { name: "LinkedIn", url: "https://www.linkedin.com/in/tofiq-askerov-25a384223/", icon: "linkedin" },
+  { name: "LinkedIn", url: "https://www.linkedin.com/in/tofig-askarov-25a384223/", icon: "linkedin" },
   { name: "Email", url: "mailto:tofiqaskerov71@gmail.com", icon: "mail" },
 ];
 
@@ -50,25 +50,16 @@ export const experiences = [
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Portfolio",
-    architecture: "Frontend",
-    description: "My personal portfolio website showcasing my projects and skills.",
-    longDescription: "A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS to display my professional experience and projects.",
-    techStack: ["TypeScript", "React", "Tailwind CSS", "Vite"],
-    githubUrl: "https://github.com/tofiqaskerov/Portfolio",
-    demoUrl: "https://tofiqaskerov.github.io/Portfolio",
-  },
-  {
-    id: 2,
     title: "GVault",
     architecture: "Frontend",
     description: "A secure web application interface.",
     longDescription: "A frontend implementation for a secure vault application, focusing on user interface and experience.",
     techStack: ["HTML", "CSS", "JavaScript"],
     githubUrl: "https://github.com/tofiqaskerov",
+    demoUrl: "https://gvault.onrender.com/",
   },
   {
-    id: 3,
+    id: 2,
     title: "ShiftFlow",
     architecture: "Backend",
     description: "Workflow management system.",
@@ -77,7 +68,7 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/tofiqaskerov",
   },
   {
-    id: 4,
+    id: 3,
     title: "Coffo",
     architecture: "Frontend",
     description: "Coffee shop landing page.",
